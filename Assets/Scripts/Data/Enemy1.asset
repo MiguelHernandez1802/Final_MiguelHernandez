@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feaa4acf8511deb4ba2b4f7a1bf81ce8, type: 3}
   m_Name: Enemy1
   m_EditorClassIdentifier: Assembly-CSharp::EnemyProfileSO
-  enemyName: John
-  speed: 5
+  enemyName: Kike
+  speed: 2
   health: 20
   prefab: {fileID: 2350144419558992254, guid: 00442bb6a645639448494627ad356258, type: 3}

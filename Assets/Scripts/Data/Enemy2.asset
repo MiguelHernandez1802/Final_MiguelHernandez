@@ -15,4 +15,4 @@ MonoBehaviour:
   enemyName: Lucas
   speed: 1
   health: 5
-  prefab: {fileID: 2350144419558992254, guid: 00442bb6a645639448494627ad356258, type: 3}
+  prefab: {fileID: 2350144419558992254, guid: aa81ebb0325b2704aa963939b381347a, type: 3}

@@ -152,6 +152,8 @@ MonoBehaviour:
   spawnPoint: {fileID: 583031266}
   waves:
   - {fileID: 11400000, guid: 0eed9f52fba99ae40a75681489fb7e3a, type: 2}
+  - {fileID: 11400000, guid: 0eed9f52fba99ae40a75681489fb7e3a, type: 2}
+  testProfile: {fileID: 0}
 --- !u!4 &186875728
 Transform:
   m_ObjectHideFlags: 0
