@@ -18,11 +18,20 @@ public class WaveManagerEditor : Editor
         else
         {
             EditorGUILayout.HelpBox("Modo Manual/Debug", MessageType.Warning);
+
             script.spawnPoint = (Transform)EditorGUILayout.ObjectField("Spawn Point", script.spawnPoint, typeof(Transform), true);
+            script.testProfile = (EnemyProfileSO)EditorGUILayout.ObjectField("Perfil de Prueba", script.testProfile, typeof(EnemyProfileSO), false);
 
             if (GUILayout.Button("Spawn Enemy Test") && Application.isPlaying)
             {
-                Debug.Log("Spawn Manual Ejecutado");
+                if (script.testProfile != null)
+                {
+                    script.SpawnEnemy(script.testProfile);
+                }
+                else
+                {
+                    Debug.LogWarning("Asigna un Perfil de Prueba primero.");
+                }
             }
         }
     }

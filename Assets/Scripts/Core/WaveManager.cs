@@ -11,6 +11,8 @@ public class WaveManager : MonoBehaviour
     public Transform spawnPoint;
     public List<WaveConfigSO> waves;
 
+    [HideInInspector] public EnemyProfileSO testProfile;
+
     private GameState currentState = GameState.Idle;
 
     private void Start()
